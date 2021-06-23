@@ -1,7 +1,7 @@
 all: hello
 
 hello: src/hello.cpp
-	gcc -o hello $<
+	g++ -o hello $<
 
 check: hello
 	hello
