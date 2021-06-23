@@ -1,6 +1,6 @@
 all: hello
 
-hello: hello.cpp
+hello: src/hello.cpp
 	gcc -o hello $<
 
 check: hello
